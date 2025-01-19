@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #f9f9f9; /* Light mode background */
+  color: #333; /* Light mode text */
+}
+
+html.dark,
+body.dark {
+  background-color: #111; /* Dark mode background */
+  color: #fff; /* Dark mode text */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
